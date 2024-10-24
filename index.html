@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hedelmäpeli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="margin-bottom: 40px;">Marjatan Hedelmäpeli</h1>
+
+    <div>
+        Rahaa jäljellä: <span id="rahat"></span> €<br><br>
+    </div>
+
+    <div>
+        Voit lukita rullan klikkaamalla sitä kierroksen jälkeen.<br>
+        Kuvissa seikkailevat minulle tärkeät henkilöt.<br><br>
+    </div>
+
+    <div>
+        Panos: <input type="number" id="panos" min="1" value="1"> €
+    </div>
+    <div id="rullat">
+        <div class="rulla"><img src="images/faarao.png" alt="Faarao"></div>
+        <div class="rulla"><img src="images/faarao.png" alt="Faarao"></div>
+        <div class="rulla"><img src="images/faarao.png" alt="Faarao"></div>
+        <div class="rulla"><img src="images/faarao.png" alt="Faarao"></div>
+    </div>
+    <button id="pelaa">Pelaa</button>
+    <div>
+        <p id="viesti"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#rullat {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rulla {
+    font-size: 40px;
+    padding: 20px;
+    border: 2px solid #000;
+    width: 100px;  /* Aseta rullan leveys */
+    height: 100px; /* Aseta rullan korkeus */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rulla img {
+    max-width: 100%;   /* Rajoita kuvan maksimileveys */
+    max-height: 100%;  /* Rajoita kuvan maksimikorkeus */
+    object-fit: contain;  /* Varmistaa, että kuva säilyttää mittasuhteensa */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
